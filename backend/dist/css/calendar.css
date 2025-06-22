@@ -1,0 +1,48 @@
+.calendar table{
+    width: 100%;
+    border: 1px solid #25BAE4;
+    border-collapse:collapse;
+    margin-top: 50px;
+}
+.calendar td{
+
+    text-align: center;
+    border: 1px solid #e2e0e0; 
+    font-size: 18px;
+    font-weight: bold;
+}
+.calendar th{
+    padding-bottom: 8px;
+    background:#25BAE4;
+    font-size: 20px;
+}
+.calendar .prev_sign a, .next_sign a{
+    color:white;
+    text-decoration: none;
+}
+.calendar tr.week_name{
+    font-size: 16px;
+    font-weight:400;
+    color:red;
+    background-color: #efe8e8;
+}
+.calendar .highlight{
+    background-color:#25BAE4;
+    color:white;
+    padding-top: 13px;
+    padding-bottom: 7px;
+}
+/*-----CSS for Right Side Advertisement----*/
+.calendar #fugo{
+    position: absolute;
+    top: 80px;
+    left: 1085px;
+    margin-top:-30px;
+}
+
+.calendar .next_sign
+{
+    text-align: right !important;
+}
+
+
